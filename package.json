@@ -5,9 +5,13 @@
   "author": "Pablo Maribondo <pablomgvieira@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev -r tsconfig-paths/register ./src/server.ts",
+    "dev": "ts-node-dev -r tsconfig-paths/register -r dotenv/config ./src/server.ts",
     "build": "tsc",
+    "start": "node ./dist/server.js",
     "prepare": "husky install"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
