@@ -1,0 +1,10 @@
+{
+  "name": "auth-middleware",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pablo Maribondo <pablomgvieira@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.2.8"
+  }
+}
