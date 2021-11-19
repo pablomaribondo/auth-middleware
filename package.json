@@ -5,7 +5,8 @@
   "author": "Pablo Maribondo <pablomgvieira@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
@@ -15,6 +16,8 @@
     "eslint-config-xo": "^0.39.0",
     "eslint-plugin-prettier": "^4.0.0",
     "git-commit-msg-linter": "^3.2.8",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.0.3",
     "prettier": "^2.4.1",
     "typescript": "^4.5.2"
   }
