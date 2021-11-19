@@ -8,14 +8,19 @@
     "dev": "ts-node-dev -r tsconfig-paths/register -r dotenv/config ./src/server.ts",
     "build": "tsc",
     "start": "node ./dist/server.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint ./src --ext .ts,.js",
+    "lint:fix": "yarn lint --fix",
+    "format": "prettier --write \"**/*.+(ts|js|json|md)\""
   },
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.6",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.2.0",
