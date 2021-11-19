@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@middlewares/*": ["./src/middlewares/*"]
+    }
+  }
+}

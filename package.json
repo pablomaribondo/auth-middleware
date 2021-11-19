@@ -4,7 +4,11 @@
   "main": "index.js",
   "author": "Pablo Maribondo <pablomgvieira@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
-    "git-commit-msg-linter": "^3.2.8"
+    "git-commit-msg-linter": "^3.2.8",
+    "typescript": "^4.5.2"
   }
 }
